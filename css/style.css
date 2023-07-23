@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&family=Public+Sans:wght@300&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.container-fluid {
+    font-family: 'Montserrat', sans-serif;
+}
+.banner-section {
+    background-image: url(../images/woman\ bg\ new.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 90vh;
+    flex-direction: column;
+
+}
+
+
+/* banner section */
+.catchphrase {
+   
+    margin: 80px 0 0 50px;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif
+}
+.slogan {
+    padding: 0 70px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif
+}
+.enroll-btn-1 {
+    padding: 0 150px;
+
+}
+
+.enrll-btn {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 30px 0 0 100px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif
+}
+  
+.enrll-btn:hover {
+    background-color: #555555;
+    color: white;
+  }
+  
+  /* enroll */
+.enroll {
+    display: flex;
+    margin: 0 50px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+
+}
+
+/* cards section */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    justify-content: space-evenly;
+    font-family: 'Public Sans', sans-serif;
+    background-color: rgba(137, 147, 158, 0.433);
+}
+.card {
+    border-radius: 10px;
+    max-width: 270px;
+    min-width: 270px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.2s;
+}
+.card-image {
+    background-color: black;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+.card:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+
+}
+.img-1 {
+    background-image: url(https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg);
+    background-position: center;
+}
+.img-2 {
+    background-image: url(https://www.springboard.com/blog/wp-content/uploads/2020/07/how-do-you-become-a-uiux-designer-featured-image.jpg);
+    background-position: center;
+    background-size: 400px;
+}
+.img-3 {
+    background-image: url(https://embed-ssl.wistia.com/deliveries/e3cfa7e615bafd8cd41e0e567cf0bd98983e94b2.webp?image_crop_resized=960x540);
+    background-size: 500px;
+    background-position: center;
+}
+.img-4 {
+    background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/FRSdefault.jpg);
+    background-size: 500px;
+    /* background-position: center; */
+}
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1em;
+    margin: 20px;
+    text-align: justify;
+    font-family: 'Public Sans', sans-serif;
+}
+.enrl-container {
+    padding: 30px 20px;
+    
+}
+.enroll-btn {
+    margin: 0 20px;
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    justify-content: end;
+   
+}
+.enroll-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+     background-color: rgba(137, 147, 158, 0.052);
+ }
+  
+.enroll-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+ }
+  
+.enroll-btn:hover span {
+    padding-right: 25px;
+ }
+  
+.enroll-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3em;
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+    
+}
+
+/* partner section */
+.partner-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 120px;
+  }
+  
+.partner-container div {
+    /* background-color: DodgerBlue; */
+    color: white;
+    
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    justify-content: space-between;
+    line-height: 75px;
+    font-size: 30px;
+  }
+.box-1 {
+     background-image: url(https://www.dlsu.edu.ph/wp-content/uploads/2017/10/cropped-01.png);
+    background-position: center;
+    background-size: 100px;
+  }
+.box-2 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1dc0cfee-1433-4f8d-9494-4695bbed25b0/ddxww8x-db22d2be-21cc-4035-9470-2bf4740c32c0.png/v1/fit/w_300,h_900/old_mapua_institute_of_technology_logo_by_mapuan_ddxww8x-300w.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTE0MSIsInBhdGgiOiJcL2ZcLzFkYzBjZmVlLTE0MzMtNGY4ZC05NDk0LTQ2OTViYmVkMjViMFwvZGR4d3c4eC1kYjIyZDJiZS0yMWNjLTQwMzUtOTQ3MC0yYmY0NzQwYzMyYzAucG5nIiwid2lkdGgiOiI8PTExNDIifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.NCuQC5TGA-meGi6zrpBo8SAQbc8iMJDu1HxTtPc9RRc);
+    background-size: 100px;
+}
+.box-3 {
+    background-image: url(../images/ciit\ logo.png);
+    background-size: 100px;
+}
+  
+.box-4 {
+    background-image: url(https://www.nicepng.com/png/detail/102-1026869_university-of-the-philippines-diliman-logo.png);
+    background-size: 100px;
+    background-position: center;
+}
+.box-5 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/1/1f/Systems_Technology_Institute.png);
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.partner-btn{
+    margin: 0 10px;
+    text-decoration: none;
+    border: none;
+    background: transparent;
+   
+}
+.partner-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+     background-color: rgba(137, 147, 158, 0.052);
+ }
+  
+.partner-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+ }
+  
+.partner-btn:hover span {
+    padding-right: 25px;
+ }
+  
+.partner-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/* testimonials */
+.testimonials {
+    padding: 90px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    text-transform: uppercase;
+ }
+  
+.border {
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.testimonial {
+    background: #fff;
+    padding: 30px;
+    height: 100%;
+}
+.testimonial:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  
+}
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.name { 
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+/* footer section */
+footer{
+  color: white;
+  bottom: 0px;
+  width: 100%;
+  background: #454545;
+  font-family: 'Poppins', sans-serif;
+}
+.main-content{
+  display: flex;
+  
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+  
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+  
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #d27272;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right .content .social{
+  margin: 20px 0 0 0;
+}
+.right .content .social a{
+  padding: 0 2px;
+}
+.right .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.right .content .social a span:hover{
+  background: #f12020;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+
+/* page 2 */
+
+/* about us section */
+.about {
+    background-color: rgba(137, 147, 158, 0.433);
+    padding: 10px 20px;
+    height: 80vh;   
+    display: flex;
+}
+.about-us {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font: 20px;
+    padding: 40px 5px;
+}
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px;
+  
+}
+.about-text {
+    padding: 30px 30px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.about-img {
+   width: 600px;
+}
+.grow-section {
+    height: 500px;
+    padding: 80px 0;
+   
+}
+.grow-p {
+    text-align: center;
+}
+.title {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* goals and objectives */
+.objectives-section {
+    padding: 70px 0;
+    height: 800px;
+    background-color: rgba(137, 147, 158, 0.715);
+    
+}
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.border {
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+.objectives-content {
+    display: flex;
+     justify-content: space-between;
+     padding: 20px 50px;
+     font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+.objective-img {
+   width: 700px;
+}
+.objectives-list {
+    width: 650px;
+    height: 300px;
+    padding: 30px 30px;
+    margin: 10px;
+    font-size: 18px;
+    word-spacing: 10px;
+}
+
+@media only screen and (max-width: 768px)  
+{
+   
+    .banner-section {
+
+        height: 300px;
+    }
+    .catchphrase {
+        margin: 50px 0 0 20px;
+        font-size: 40px;
+    }
+    .slogan {
+        padding: 0 25px;
+        font-size: 15px;
+    }
+    .enroll-btn-1 {
+        padding: 0 70px;
+    }
+    .enrll-btn {
+        font-size: 35px;
+        margin: 6px;
+    }
+    .col{
+        flex: 100%;
+        max-width: 80%;
+      }
+    footer{
+        position: relative;
+        bottom: 0px;
+      }
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+    .main-content .box{
+        margin: 5px 0;
+      }
+    .about {
+       margin-right: 0;
+       margin-left: 0;
+       display: block; 
+       padding-top: 50px;
+    }
+   .about-content {
+       flex-direction: column;
+   }
+   .about-us {
+        align-items: center;
+   }
+    .about-text {
+        padding: 20px 20px;
+        font-size: 20px;
+    }
+    .about-img {
+       width: 450px;
+    }
+  
+    .objective-img {
+        display: none;
+    }
+    .objectives-list {
+        font-size: 20px;
+    }
+
+}
